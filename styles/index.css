@@ -1,8 +1,8 @@
 
 /* Main Style */
 .loader_bg{
-    position: fixed;
-    z-index: 999999;
+    position: static;
+    z-index: 99999;
     background: #0c0c0c;
     width: 100%;
     height: 100%;
