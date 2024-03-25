@@ -242,7 +242,9 @@ h1 {
   }
   h5 {
     text-align: center;
-    margin:0
+    display: inline; 
+    margin-top: 0em;
+    margin-bottom: 0em;
   }
   h3 {
     text-align: center;
