@@ -1,14 +1,12 @@
 
 /* Main Style */
-@media (max-width: 640px){
-    
 .loader_bg{
-    position: absolute;
+    position: fixed;
     z-index: 999999;
     background: #0c0c0c;
     width: 100%;
     height: 100%;
-}}
+}
 .loader{
     border: 0 soild transparent;
     border-radius: 50%;
