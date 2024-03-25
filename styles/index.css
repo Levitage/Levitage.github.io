@@ -1,8 +1,8 @@
 
 /* Main Style */
 .loader_bg{
-    position: static;
-    z-index: 99999;
+    position: fixed;
+    z-index: 999;
     background: #0c0c0c;
     width: 100%;
     height: 100%;
@@ -12,13 +12,14 @@
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    position: absolute;
+    position: fixed;
     top: calc(50vh - 75px);
     left: calc(50vw - 75px);
 }
 .loader:before, .loader:after{
     content: '';
     border: 1em solid #cccccc;
+    margin: auto;
     border-radius: 50%;
     width: inherit;
     height: inherit;
